@@ -1,0 +1,6 @@
+Command: ninja confserver
+info: INFO: Symbol BSP_I2S_NUM defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /Users/jason/Documents/Jason_Project/SmartHomehub/components/bsp_extra/Kconfig:2
+    /Users/jason/Documents/Jason_Project/SmartHomehub/managed_components/waveshare__esp32_p4_wifi6_touch_lcd_4b/Kconfig:30
+Server running, waiting for requests on stdin...
+Loading config from /Users/jason/Documents/Jason_Project/SmartHomehub/sdkconfig...

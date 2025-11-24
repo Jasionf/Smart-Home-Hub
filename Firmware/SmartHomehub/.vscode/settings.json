@@ -1,0 +1,26 @@
+{
+  "idf.openOcdConfigs": [
+    "board/esp32p4-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "OPENOCD_SCRIPTS": "/Users/jason/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+    "ESP_ROM_ELF_DIR": "/Users/jason/.espressif/tools/esp-rom-elfs/20240305/",
+    "IDF_TARGET": "esp32p4"
+  },
+  "clangd.path": "/Users/jason/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=/Users/jason/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc",
+    "--compile-commands-dir=/Users/jason/Documents/Jason_Project/SmartHomehub/build"
+  ],
+  "files.associations": {
+    "lv_demos.h": "c",
+    "ui.h": "c",
+    "wifi_connect.h": "c"
+  },
+  "idf.port": "/dev/tty.wchusbserial5A671691321",
+  "idf.flashType": "UART",
+  "idf.espIdfPath": "/Users/jason/esp/v5.5.1/esp-idf",
+  "idf.toolsPath": "/Users/jason/.espressif",
+  "idf.pythonInstallPath": "/Users/jason/.pyenv/shims/python"
+}

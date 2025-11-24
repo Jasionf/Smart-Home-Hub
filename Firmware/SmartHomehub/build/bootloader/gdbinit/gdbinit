@@ -1,0 +1,2 @@
+source /Users/jason/Documents/Jason_Project/SmartHomehub/build/bootloader/gdbinit/symbols
+source /Users/jason/Documents/Jason_Project/SmartHomehub/build/bootloader/gdbinit/connect
